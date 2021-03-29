@@ -14,7 +14,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int a = scan.nextInt();
-        System.out.println((9 / 5) * a + 32); //не видит "+32", выдаёт значение только "(9/5) * a"
+        float a = scan.nextInt();
+        a = a * 9/5 + 32; // если поставить значение "а" после "9/5", то по какой-то причине формула не работает
+        System.out.println(a);
     }
 }
