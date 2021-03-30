@@ -13,6 +13,8 @@ name типа String, age типа int и city типа String.
 Должны быть объявлены 3 переменные.
 */
 
+// Made by Aleksey
+
 public class Main {
     public static void main(String[] args) {
         String name;
