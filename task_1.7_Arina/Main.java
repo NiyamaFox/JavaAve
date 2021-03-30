@@ -8,12 +8,13 @@
 250000 */
 
 
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        int a = 4;
-        int b = 87;
-        int c = 12;
+        Scanner scan = new Scanner (System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
         System.out.println(a * b * c * 1000);
     }
 }
