@@ -1,10 +1,11 @@
 /*
 Пользователь вводит число, необходимо увеличить это число на 15% и вывести результат на экран
 */
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        int a = 100;
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
         System.out.println(a + a * 0.15);
 
     }
