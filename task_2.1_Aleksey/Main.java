@@ -15,11 +15,12 @@ public class Main {
     public static void main(String[] args) {
 
         String[] mums = {"Мама", "Мыла", "Раму"};
-        for (int i = 0; i < mums.length; i++) {
-            for (int j = 0; j < mums.length; j++) {
-                for (int k = 0; k < mums.length; k++) {
-                    System.out.println(mums[i] + mums[j] + mums[k]);
 
+        for (int i = 0; i < 1; i++) {
+            for (int j = 0; j < 2; j++) {
+                for (int k = 0; k < mums.length; k++) {
+
+                    System.out.println(mums[i] + mums[j] + mums[k]);
                 }
             }
         }
